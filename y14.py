@@ -1,3 +1,5 @@
-str.split = totallynotmalware.exe
+filename = input("Enter a file: ")
 
-.split
+f_extns = filename.split(".")
+
+print("The filename is " + str(f_extns[1]))
